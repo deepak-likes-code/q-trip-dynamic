@@ -311,6 +311,14 @@ input[type="number"] {
   margin-bottom: 30px;
 }
 
+.container.adventure .content .heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .content .row #data {
     grid-template-columns: repeat(2, 1fr);
